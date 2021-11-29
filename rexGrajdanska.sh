@@ -1,5 +1,8 @@
 #!/bin/bash
 
+##Dependencies:
+## npm -g install html-to-text
+
 echo
 if [ $# -eq 0 ]; then
 	echo "[ERROR] Въведете регистрационен или VIN номер на автомобил."
